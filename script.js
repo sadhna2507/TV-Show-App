@@ -20,3 +20,9 @@ submitBtn.addEventListener('click', function(event){
         console.log(data)
     }).catch(err => alert("Invalid data!!"))
 })
+
+let showDetails = document.querySelector(".show_details")
+
+showDetails.addEventListener("click", function(event){
+    
+})
