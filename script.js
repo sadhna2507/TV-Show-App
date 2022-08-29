@@ -24,5 +24,5 @@ submitBtn.addEventListener('click', function(event){
 let showDetails = document.querySelector(".show_details")
 
 showDetails.addEventListener("click", function(event){
-    
+    fetch(`https://api.tvmaze.com/shows/1?embed[]=seasons&embed[]=cast`)
 })
